@@ -17,7 +17,7 @@ There are two sources for these data:
 Some Notes
 ----------
 
-The data spanning fiscal years 2000 through 2007 were (in)conveniently only available in older formatted MS Access databases.  After a few attempts and frustrations trying load these in `R` via `ODBC`, I manually loaded each table into MS Access (located in `./data/access/Perm_compiled.accdb`) and exported each FY table as a comma delimited text file for further manipulation in `R`.
+The data spanning fiscal years 2000 through 2007 were (in)conveniently only available in older formatted MS Access databases.  After a few attempts and frustrations trying load these in ``R`` via ``ODBC``, I manually loaded each table into MS Access (located in ``./data/access/Perm_compiled.accdb``) and exported each FY table as a comma delimited text file for further manipulation in ``R``.
 
 While the data contain a few consistent fields, such as employer names and relevant SOC codes/titles, the available fields changed a lot by fiscal year.  The cleaning codes provided attempt to harmonize the data to make them more usable in a time series context.
 
